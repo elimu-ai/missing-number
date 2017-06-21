@@ -21,7 +21,7 @@
         </activity>
 
         <activity
-            android:name="org.literacyapp.missing_number.MissingNumberActivity">
+            android:name="org.literacyapp.missing_number.TypeMissingNumberActivity">
         </activity>
     </application>
 </manifest>

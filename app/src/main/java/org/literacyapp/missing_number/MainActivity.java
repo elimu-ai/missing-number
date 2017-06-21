@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         ContentProvider.initializeDb(this);
 
-        Intent intent = new Intent(this, MissingNumberActivity.class);
+        Intent intent = new Intent(this, TypeMissingNumberActivity.class);
         startActivity(intent);
 
         finish();
