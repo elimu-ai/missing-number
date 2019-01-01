@@ -1,4 +1,4 @@
-# egma-missing-number
+# Missing Number
 
 Android application for teaching and assessing missing numbers
 
