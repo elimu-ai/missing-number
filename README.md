@@ -5,19 +5,20 @@ Android application for teaching and assessing missing numbers.
 Corresponding [EGMA skill](https://github.com/elimu-ai/model/blob/master/src/main/java/ai/elimu/model/v2/enums/content/NumeracySkill.java): `MISSING_NUMBER`
 > Children are asked to name a missing number in a set or sequence of numbers, and strategically demonstrate their knowledge of these numbers.
     
-> ![](https://raw.githubusercontent.com/elimu-ai/webapp/master/src/main/webapp/static/img/admin/EGMA_MISSING_NUMBER.png)
+<img width=320 src="https://raw.githubusercontent.com/elimu-ai/webapp/master/src/main/webapp/static/img/admin/EGMA_MISSING_NUMBER.png" />
 
 ## Screenshots 📸
 
-<img width="640" src="https://user-images.githubusercontent.com/15718174/27363510-ed2cd9aa-562c-11e7-86b5-db3d536a6655.png" />
+<img width=480 src="https://user-images.githubusercontent.com/15718174/27363510-ed2cd9aa-562c-11e7-86b5-db3d536a6655.png" />
 
 ## Demo Videos 🎥
 
-[![](https://i.ytimg.com/vi/B8DNuti-15Q/hqdefault.jpg)](https://youtu.be/B8DNuti-15Q)
+[<img width=480 src="https://i.ytimg.com/vi/B8DNuti-15Q/hqdefault.jpg" />](https://youtu.be/B8DNuti-15Q)
 
 ## Installation
 
-Note: This app depends on the [elimu.ai Content Provider](https://github.com/elimu-ai/content-provider) to be installed.
+> [!IMPORTANT]
+> Note: This app depends on the [elimu.ai Content Provider](https://github.com/elimu-ai/content-provider) to be installed.
 
 ---
 
