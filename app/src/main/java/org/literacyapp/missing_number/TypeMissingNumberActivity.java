@@ -2,12 +2,12 @@ package org.literacyapp.missing_number;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 
-import org.literacyapp.contentprovider.ContentProvider;
-import org.literacyapp.contentprovider.model.content.Number;
+import ai.elimu.model.v2.gson.content.NumberGson;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class TypeMissingNumberActivity extends AppCompatActivity {
@@ -19,7 +19,8 @@ public class TypeMissingNumberActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_type_missing_number);
 
-        List<Number> unlockedNumbers = ContentProvider.getUnlockedNumbers();
+        // TODO: fetch via ContentProviderUtil once Number support is added
+        List<NumberGson> unlockedNumbers = new ArrayList<>();
         Log.i(getClass().getName(), "unlockedNumbers: " + unlockedNumbers);
 
         MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.activity_instruction_number_typing);
