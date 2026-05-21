@@ -1,7 +1,23 @@
 [versions]
+agp = "8.7.3"
+appcompat = "1.7.0"
+cardview = "1.0.0"
 elimuContentProvider = "1.4.62"
 elimuModel = "model-2.0.139"
+espressoCore = "3.6.1"
+junit = "4.13.2"
+junitExt = "1.2.1"
+legacySupportV4 = "1.0.0"
 
 [libraries]
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitExt" }
+androidx-legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
 elimu-content-provider = { group = "ai.elimu", name = "content-provider", version.ref = "elimuContentProvider" }
 elimu-model = { group = "ai.elimu", name = "model", version.ref = "elimuModel" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
